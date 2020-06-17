@@ -10,9 +10,9 @@ def userInput(answers, attempts):
 
     letter = input("Saisissez une lettre : ")
 
-    print(attempts)
+    print("Il vous reste " + str(attempts) + " chances")
 
-    if letter == "q":
+    if letter == "quit":
         quit()
     else:
         answers.append(letter)
