@@ -1,3 +1,3 @@
-# Pendu_Python
+# Pendu
 ## How to run
 `python pendu.py`
